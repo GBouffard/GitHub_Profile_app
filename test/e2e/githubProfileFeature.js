@@ -16,6 +16,11 @@ describe('Github Profile finder', function() {
     searchButton.click();
     expect(element(by.binding('user.login')).getText()).toEqual('GBouffard');
   });
+
+  it('finds the last GBouff (even if not Guillaume)', function() {
+    searchBox.sendKeys('GBouff');
+    searchButton.click();
+    var profiles = element.all(by.repeater('user in searchCtrl.searchResult.items'));
+    expect(profiles.last().getText()).toMatch(/GBouff.*/);
+  });
 });
-
-
