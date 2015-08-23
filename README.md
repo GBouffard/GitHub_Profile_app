@@ -10,9 +10,11 @@ Heroku
 ----
 [link to come soon]()
 
+![](public/gpa_screenshot.png)
+
 Objectives of exercise
 ----
-To learn about API calls, AngularJS and NodeJS.
+To learn about API calls, AngularJS, NodeJS and Karma and Protractor Testing.
 
 Technologies used
 ----
