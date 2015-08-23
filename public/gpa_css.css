@@ -1,8 +1,7 @@
 body {
   font-family: Helvetica, Arial, Sans-serif;
   text-align:center;
-  font-size: 12px;
-  line-height: 21px;
+  font-size: 36px;
   background-image: url(/public/octocat.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -18,4 +17,20 @@ header {
   font-size: 15px;
   display: flex;
   padding: 25px 30px;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#container {
+  background:rgba(250,0,0,0.5);
+  text-align:center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 2px solid white;
+  border-radius:10px;
 }
