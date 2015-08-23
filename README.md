@@ -18,7 +18,12 @@ Technologies used
 ----
 - Javascript
 - AngularJS
+- Node Server
+- Npm & Bower
+- Github API
 - Karma and Protractor
+- Selenium Server & WebDriver
+- grunt & jshint
 - jQuery
 
 How to run it
@@ -26,12 +31,19 @@ How to run it
 ```
 git clone git@github.com:GBouffard/github_profile_app.git
 cd github_profile_app
+npm start
 ```
-Need to finish
+By opening your browser on http://localhost:3000/, you can now search for profiles on Github with this users search application.
 
 How to run tests
 ----
 ```
 cd github_profile_app
+npm test
+protractor test/e2e/conf.js
 ```
-Need to finish
+
+and this is what you should see:
+![](public/karma_test.png)
+![](public/protractor_test.png)
+
