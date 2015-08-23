@@ -1,0 +1,15 @@
+body {
+  font-family: Helvetica, Arial, Sans-serif;
+  text-align:center;
+  font-size: 10px;
+  line-height: 21px;
+  background-image: url(/public/octocat.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;   
+}
+
+html, body {
+  height: 100%;
+}
