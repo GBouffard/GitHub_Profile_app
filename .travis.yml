@@ -10,7 +10,7 @@ before_script:
   - "sh -e /etc/init.d/xvfb start"
   - npm start > /dev/null &
   - webdriver-manager update
-  - sleep 3
+  - travis_wait
 
 script:
   - npm test --single-run
